@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "python app.py"
+  },
+  "models": {
+    "alwaysai/gendernet": 7,
+    "alwaysai/agenet": 9
+  }
+}
