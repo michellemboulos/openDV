@@ -3,11 +3,11 @@ def send(message):
     """Construct a post request and deliver"""
     try:
         url = "https://api.twilio.com/2010-04-01/Accounts/AC52acc29bbf0d2d1c3d28fe30232d8394/Messages.json"
-        user = "AC52acc29bbf0d2d1c3d28fe30232d8394" #"AC5abeb56cb2aba1bbecd8572de18c3ef2"
-        token = "e6ec8c8c050ecb3469ab21b4e55553e2"
+        user =
+        token =
         data = {
-            "To": 19513152160,
-            "From": 12015968675,
+            "To": ,
+            "From": ,
             "Body": message#"Domestic Situation identified. Notifying Authorities."
         }
         r = requests.post(url, data=data, auth=(user, token))
